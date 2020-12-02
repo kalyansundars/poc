@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                echo "Current workspace is $WORKSPACE"
+                echo "Current workspace is: $WORKSPACE"
             }
         }
     }
