@@ -11,7 +11,7 @@ pipeline {
             steps {
                 echo "-----Initializing Build-----"
                 dir("helloworld") {
-                    bat "mvn clean install"
+                    bat "C:\\apache-maven-3.6.3\\bin\\mvn clean install"
                 }
                 echo "-----Build Completed-----"
             }
