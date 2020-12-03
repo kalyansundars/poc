@@ -11,7 +11,7 @@ pipeline {
             steps {
                 echo "-----Initializing Build-----"
                 dir("helloworld") {
-                    sh 'mvn clean install'
+                    bat "mvn clean install"
                 }
                 echo "-----Build Completed-----"
             }
